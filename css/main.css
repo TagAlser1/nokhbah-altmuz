@@ -497,6 +497,7 @@ header nav ul li a:hover {
   font-size: 24px;
 }
 #contracts .contract-content .btn-send {
+  display: inline-block;
   color: var(--bg-color);
   width: 100%;
   background-color: var(--main-color);
