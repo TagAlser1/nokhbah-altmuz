@@ -38,7 +38,6 @@ a {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  overflow-x: hidden;
 }
 
 /* Small */
@@ -240,6 +239,7 @@ header nav ul li a:hover {
   position: relative;
   z-index: 3;
   margin-top: 100px;
+  overflow: hidden;
 }
 #home .heading-text h1 {
   color: var(--main-color);
@@ -277,6 +277,7 @@ header nav ul li a:hover {
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   grid-column-gap: 40px;
   grid-row-gap: 20px;
+  overflow: hidden;
 }
 @media (max-width: 767px) {
   #about .about-containt {
@@ -318,9 +319,10 @@ header nav ul li a:hover {
 }
 #vision .vision-containt {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-column-gap: 40px;
   grid-row-gap: 40px;
+  overflow: hidden;
 }
 #vision .vision-containt .box {
   display: flex;
@@ -362,6 +364,7 @@ header nav ul li a:hover {
   align-items: center;
   gap: 30px;
   text-align: center;
+  overflow: hidden;
 }
 @media (max-width: 991px) {
   #services .serv-content {
@@ -407,6 +410,7 @@ header nav ul li a:hover {
   grid-column-gap: 40px;
   grid-row-gap: 60px;
   z-index: 2;
+  overflow: hidden;
 }
 #projects .project-content .box {
   position: relative;
@@ -460,6 +464,7 @@ header nav ul li a:hover {
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-column-gap: 40px;
   grid-row-gap: 60px;
+  overflow: hidden;
 }
 @media (max-width: 767px) {
   #contracts .contract-content {
@@ -525,6 +530,7 @@ header nav ul li a:hover {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-column-gap: 20px;
   grid-row-gap: 40px;
+  overflow: hidden;
 }
 #contact .contact-content .box {
   color: white;
