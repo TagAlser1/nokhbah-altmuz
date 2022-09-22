@@ -417,7 +417,7 @@ header nav ul li a:hover {
   background-color: var(--secound-color);
   overflow: hidden;
   transition: var(--transition);
-  overflow: hidden;
+  overflow-x: hidden;
 }
 #projects .project-content .box::before {
   position: absolute;
