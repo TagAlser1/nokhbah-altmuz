@@ -224,6 +224,7 @@ header nav ul li a:hover {
   background-image: url("../imgs/hero2.jpg");
   background-size: cover;
   position: relative;
+  overflow-x: hidden;
 }
 #home::before {
   position: absolute;
