@@ -10,5 +10,5 @@ navbar.onclick = function () {
 };
 setInterval(() => {
   let backNum = Math.trunc(Math.random() * 4) + 1;
-  heroImage.style.backgroundImage = `url("../imgs/background-${backNum}.jpg")`;
+  heroImage.style.backgroundImage = `url("./imgs/background-${backNum}.jpg")`;
 }, 2000);
