@@ -7,7 +7,6 @@
   --secound-color: #353530;
   --bg-color: #1c1b19;
   --transition: 0.3s;
-  --transparent-color: rgb(15 116 143 / 70%);
   --section-padding: 100px;
 }
 /* End Variables */
@@ -220,10 +219,10 @@ header nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../imgs/hero2.jpg");
   background-size: cover;
   position: relative;
   overflow-x: hidden;
+  transition: 3s;
 }
 #home::before {
   position: absolute;
