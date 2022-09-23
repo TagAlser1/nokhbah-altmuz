@@ -9,6 +9,6 @@ navbar.onclick = function () {
   return navbar.classList.remove("hidden");
 };
 setInterval(() => {
-  let backNum = Math.trunc(Math.random() * 4) + 1;
-  heroImage.style.backgroundImage = `url("./imgs/background-${backNum}.jpg")`;
-}, 2000);
+  let backNum = Math.trunc(Math.random() * 7) + 1;
+  heroImage.style.backgroundImage = `url("../imgs/background-${backNum}.jpg")`;
+}, 3000);
