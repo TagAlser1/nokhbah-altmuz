@@ -284,7 +284,7 @@ header nav ul li a:hover {
   }
   #home .home-content {
     flex-direction: column-reverse;
-    margin-top: 100px;
+    margin-top: 80px;
     gap: 10px;
   }
   #home .home-content .home-image {
@@ -580,7 +580,7 @@ header nav ul li a:hover {
 }
 #contact .contact-content {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
   gap: 20px;
 }
 #contact .contact-content .contact-text {
@@ -611,6 +611,11 @@ header nav ul li a:hover {
 #contact .contact-content .box p {
   font-size: 20px;
   line-height: 1.8;
+}
+@media (max-width: 768px) {
+  #contact .contact-content .box p {
+    text-align: center;
+  }
 }
 #contact .contact-content .box:hover {
   border-bottom: 1px solid var(--main-color);
